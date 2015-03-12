@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "YISSTextView.h"
+#import "SZTextView.h"
 
 @class YIPopupTextView;
 
@@ -32,7 +32,7 @@ typedef NS_ENUM(NSInteger, YIPopupTextViewButtonStyle) {
 @end
 
 
-@interface YIPopupTextView : YISSTextView
+@interface YIPopupTextView : SZTextView
 
 @property (nonatomic, assign) id <YIPopupTextViewDelegate> delegate;
 
